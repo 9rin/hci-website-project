@@ -116,8 +116,8 @@ const Home = () => {
 
             {/* Right - Floating Enjoy Image */}
             <div className="relative h-[600px] hidden lg:flex items-center justify-center">
-              {/* Gradient Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-3xl blur-3xl opacity-40"></div>
+              {/* Soft Sky Blue Gradient Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-sky-100 via-blue-50 to-cyan-100 rounded-3xl blur-3xl opacity-50"></div>
               
               {/* Floating Enjoy Image */}
               <div className="relative z-10 animate-float">
