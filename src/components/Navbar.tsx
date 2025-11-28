@@ -48,11 +48,9 @@ const Navbar = () => {
         <a href="#home" onClick={(e) => scrollToSection(e, "#home")} className="flex items-center space-x-3 group">
           <img 
             src="/docs/questrip_logo.png" 
+            alt="Questrip Logo"
             className="h-10 w-auto object-contain"
           />
-          <span className="text-xl font-bold tracking-wide text-gray-800 group-hover:text-gray-900 transition">
-            Questrip
-          </span>
         </a>
 
         {/* Desktop Navigation */}

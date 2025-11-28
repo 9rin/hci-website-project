@@ -114,49 +114,17 @@ const Home = () => {
               </h1>
             </div>
 
-            {/* Right - Floating Circles */}
-            <div className="relative h-[600px] hidden lg:block">
+            {/* Right - Floating Enjoy Image */}
+            <div className="relative h-[600px] hidden lg:flex items-center justify-center">
               {/* Gradient Background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-full blur-3xl opacity-60"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-3xl blur-3xl opacity-40"></div>
               
-              {/* Floating Circle Images */}
-              <div className="absolute top-20 left-10 w-40 h-40 rounded-full border-4 border-gray-200 shadow-xl overflow-hidden animate-float">
+              {/* Floating Enjoy Image */}
+              <div className="relative z-10 animate-float">
                 <img 
-                  src="https://images.unsplash.com/photo-1614729939124-032d000b6b4a?w=400&h=400&fit=crop" 
-                  alt="Design 1"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="absolute top-10 right-20 w-48 h-48 rounded-full border-4 border-pink-300 shadow-xl overflow-hidden animate-float" style={{ animationDelay: '0.5s' }}>
-                <img 
-                  src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&h=400&fit=crop" 
-                  alt="Design 2"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="absolute top-64 left-24 w-44 h-44 rounded-full border-4 border-purple-300 shadow-xl overflow-hidden animate-float" style={{ animationDelay: '1s' }}>
-                <img 
-                  src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=400&h=400&fit=crop" 
-                  alt="Design 3"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="absolute bottom-32 right-10 w-52 h-52 rounded-full border-4 border-green-200 shadow-xl overflow-hidden animate-float" style={{ animationDelay: '1.5s' }}>
-                <img 
-                  src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400&h=400&fit=crop" 
-                  alt="Design 4"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <div className="absolute bottom-20 left-32 w-44 h-44 rounded-full border-4 border-yellow-300 shadow-xl overflow-hidden animate-float" style={{ animationDelay: '2s' }}>
-                <img 
-                  src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=400&fit=crop" 
-                  alt="Design 5"
-                  className="w-full h-full object-cover"
+                  src="/docs/enjoy.png" 
+                  alt="Questrip Enjoy"
+                  className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
                 />
               </div>
             </div>
