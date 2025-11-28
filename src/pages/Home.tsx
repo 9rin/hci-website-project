@@ -112,9 +112,6 @@ const Home = () => {
                 <br />
                 <span className="text-3xl lg:text-4xl italic">from trip to game</span>
               </h1>
-              <button className="px-7 py-3 bg-gray-800 text-white rounded-full font-medium hover:bg-gray-900 transition-colors text-base">
-                Try Prototype
-              </button>
             </div>
 
             {/* Right - Floating Circles */}
