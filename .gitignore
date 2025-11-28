@@ -23,7 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large files (PDFs, videos, images, etc.)
-public/docs/
+# Large files (videos, prototypes)
 public/videos/
 public/prototypes/
