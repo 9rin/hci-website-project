@@ -196,11 +196,9 @@ const Home = () => {
                 Project Overview
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Questrip is an innovative HCI project that transforms traditional travel experiences into engaging, gamified adventures. Our goal is to make exploring new places more interactive and rewarding.
+              Questrip is a quest-based collaborative travel-planning app designed to reduce stress. It transforms trip preparation into an enjoyable, gamified process using quests and voting. Users contribute options, vote anonymously, and receive rewards that increase engagement. The goal is to make planning feel fun, fair, and motivating rather than overwhelming.              
               </p>
-              <p className="text-gray-700 leading-relaxed">
-                By combining location-based gaming mechanics with travel planning, we create a unique platform that motivates users to discover hidden gems and share their experiences.
-              </p>
+              
             </div>
 
             {/* Problem Statement */}
@@ -210,11 +208,8 @@ const Home = () => {
                 Problem Statement
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Many travelers struggle with discovering authentic local experiences and often miss out on unique locations. Traditional travel apps focus on popular tourist spots, leaving hidden gems unexplored.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                We address this by gamifying the exploration process, encouraging users to venture beyond typical tourist routes.
-              </p>
+              Travel planning often causes stress due to information overload and scattered opinions. One person commonly ends up doing all the research and coordination, creating imbalance. Filtering unreliable or sponsored information takes excessive time and energy. People need a fair, simple, and collaborative way to make decisions together.
+               </p>
             </div>
 
             {/* Target Users */}
@@ -226,19 +221,19 @@ const Home = () => {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2 font-bold">•</span>
-                  <span>Young adults (20-35) who enjoy travel and gaming</span>
+                  <span>Groups of friends, families, or classmates planning a shared trip</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2 font-bold">•</span>
-                  <span>Adventure seekers looking for unique experiences</span>
+                  <span>Users who find travel planning tiring, confusing, or unbalanced within the group</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2 font-bold">•</span>
-                  <span>Social travelers who like to share their journeys</span>
+                  <span>People who want a fair voting system that reflects everyone’s preferences</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2 font-bold">•</span>
-                  <span>Local explorers wanting to rediscover their cities</span>
+                  <span>Travelers seeking a fun, game-like way to collaborate on decisions</span>
                 </li>
               </ul>
             </div>
@@ -252,19 +247,19 @@ const Home = () => {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-orange-600 mr-2 font-bold">•</span>
-                  <span>Quest-based exploration with challenges and rewards</span>
+                  <span>Quest creation based on trip details, with editable and customizable tasks</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-600 mr-2 font-bold">•</span>
-                  <span>Location-based check-ins and achievements</span>
+                  <span>Anonymous option submission and simple like/dislike voting for fairness</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-600 mr-2 font-bold">•</span>
-                  <span>Social sharing and community recommendations</span>
+                  <span>Reward system (e.g., coins) that increases motivation and improves participation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-600 mr-2 font-bold">•</span>
-                  <span>Personalized travel itineraries based on preferences</span>
+                  <span>Local review and feedback features that enhance decision quality and credibility</span>
                 </li>
               </ul>
             </div>
