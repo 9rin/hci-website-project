@@ -174,6 +174,141 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Information Section */}
+      <section id="information" className="min-h-screen bg-white py-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-10">
+          {/* Header */}
+          <div className="mb-12 text-center">
+            <h1 className="text-5xl font-black text-gray-900 mb-3">
+              Information
+            </h1>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Learn more about our project, goals, and the problem we're solving
+            </p>
+          </div>
+
+          {/* Content Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Project Overview */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200">
+              <div className="text-4xl mb-4">🎯</div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Project Overview
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Questrip is an innovative HCI project that transforms traditional travel experiences into engaging, gamified adventures. Our goal is to make exploring new places more interactive and rewarding.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                By combining location-based gaming mechanics with travel planning, we create a unique platform that motivates users to discover hidden gems and share their experiences.
+              </p>
+            </div>
+
+            {/* Problem Statement */}
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200">
+              <div className="text-4xl mb-4">🔍</div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Problem Statement
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Many travelers struggle with discovering authentic local experiences and often miss out on unique locations. Traditional travel apps focus on popular tourist spots, leaving hidden gems unexplored.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                We address this by gamifying the exploration process, encouraging users to venture beyond typical tourist routes.
+              </p>
+            </div>
+
+            {/* Target Users */}
+            <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 border border-green-200">
+              <div className="text-4xl mb-4">👥</div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Target Users
+              </h2>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2 font-bold">•</span>
+                  <span>Young adults (20-35) who enjoy travel and gaming</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2 font-bold">•</span>
+                  <span>Adventure seekers looking for unique experiences</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2 font-bold">•</span>
+                  <span>Social travelers who like to share their journeys</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2 font-bold">•</span>
+                  <span>Local explorers wanting to rediscover their cities</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Key Features */}
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200">
+              <div className="text-4xl mb-4">✨</div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Key Features
+              </h2>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-orange-600 mr-2 font-bold">•</span>
+                  <span>Quest-based exploration with challenges and rewards</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 mr-2 font-bold">•</span>
+                  <span>Location-based check-ins and achievements</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 mr-2 font-bold">•</span>
+                  <span>Social sharing and community recommendations</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange-600 mr-2 font-bold">•</span>
+                  <span>Personalized travel itineraries based on preferences</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Design Process */}
+          <div className="mt-12 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Our Design Process
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-3">
+                  1
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Research</h3>
+                <p className="text-sm text-gray-600">User interviews & analysis</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-3">
+                  2
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Ideation</h3>
+                <p className="text-sm text-gray-600">Concept development</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-3">
+                  3
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Prototype</h3>
+                <p className="text-sm text-gray-600">Interactive mockups</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-3">
+                  4
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Testing</h3>
+                <p className="text-sm text-gray-600">User validation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Documentation Section */}
       <section id="documentation" className="min-h-screen bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
@@ -557,49 +692,44 @@ const Home = () => {
           </div>
 
           {/* Contact Section */}
-          <div className="bg-gray-50 rounded-2xl p-10 text-center border border-gray-200">
-            <h2 className="text-3xl font-black text-gray-900 mb-3">
+          <div className="bg-gray-50 rounded-2xl p-8 text-center border border-gray-200">
+            <h2 className="text-4xl font-black text-gray-900 mb-4">
               Contact Us
             </h2>
-            <p className="text-base text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
               Have questions about our project? Feel free to reach out anytime.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
-              <div className="p-4">
-                <div className="text-2xl mb-2">📧</div>
-                <div className="font-bold text-gray-900 text-sm mb-1">Email</div>
-                <div className="text-xs text-gray-600">team@hciproject.com</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 max-w-lg mx-auto">
+              <div className="p-5">
+                <div className="text-4xl mb-3">📧</div>
+                <div className="font-bold text-gray-900 text-base mb-2">Email</div>
+                <div className="text-sm text-gray-600">youcandoit@ewha.ac.kr</div>
               </div>
-              <div className="p-4">
-                <div className="text-2xl mb-2">💻</div>
-                <div className="font-bold text-gray-900 text-sm mb-1">GitHub</div>
-                <div className="text-xs text-gray-600">@hci-project-team</div>
-              </div>
-              <div className="p-4">
-                <div className="text-2xl mb-2">💼</div>
-                <div className="font-bold text-gray-900 text-sm mb-1">LinkedIn</div>
-                <div className="text-xs text-gray-600">HCI Project Team</div>
+              <div className="p-5">
+                <div className="text-4xl mb-3">💻</div>
+                <div className="font-bold text-gray-900 text-base mb-2">GitHub</div>
+                <div className="text-sm text-gray-600">9rin/hci-website-project</div>
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row justify-center gap-3">
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="mailto:team@hciproject.com"
-                className="inline-flex items-center justify-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
+                href="mailto:youcandoit@ewha.ac.kr"
+                className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-colors text-base shadow-md hover:shadow-lg"
               >
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 Send Email
               </a>
               <a
-                href="https://github.com/your-team"
+                href="https://github.com/9rin/hci-website-project"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-2.5 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-colors text-sm"
+                className="inline-flex items-center justify-center px-8 py-3.5 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-colors text-base shadow-md hover:shadow-lg"
               >
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
                 </svg>
                 Visit GitHub
