@@ -48,41 +48,6 @@ Questrip은 여행자들이 여행지에서 미션을 수행하며 즐거운 경
    - 5명의 팀원 정보 (이름, 역할, 사진)
    - Contact Us (이메일, GitHub)
 
-## 📦 설치 및 실행
-
-### 필수 요구사항
-- Node.js 16.x 이상
-- npm 또는 yarn
-
-### 설치
-
-```bash
-# 저장소 클론
-git clone https://github.com/9rin/hci-website-project.git
-cd hci-website-project
-
-# 의존성 설치
-npm install
-```
-
-### 개발 서버 실행
-
-```bash
-npm run dev
-```
-
-개발 서버가 `http://localhost:5173`에서 실행됩니다.
-
-### 프로덕션 빌드
-
-```bash
-# 빌드
-npm run build
-
-# 빌드 결과 미리보기
-npm run preview
-```
-
 ## 📁 프로젝트 구조
 
 ```
@@ -110,65 +75,6 @@ hci-project/
 └── tsconfig.json               # TypeScript 설정
 ```
 
-## 🎨 커스터마이징
-
-### 문서 추가/수정
-
-`src/pages/Home.tsx`의 `documents` 배열을 수정하세요:
-
-```typescript
-const documents = [
-  {
-    id: 1,
-    title: 'Needfinding',
-    pdfUrl: '/docs/1.pdf',
-    imageUrl: '/docs/1.png',
-    pages: 26,
-    date: '2025.09.22',
-  },
-  // 더 많은 문서 추가...
-]
-```
-
-PDF와 이미지는 `public/docs/` 폴더에 넣어주세요.
-
-### 팀원 정보 수정
-
-`src/pages/Home.tsx`의 `teamMembers` 배열을 수정하세요:
-
-```typescript
-const teamMembers = [
-  {
-    id: 1,
-    name: 'Kyurin Kim',
-    role: 'Project Manager & Website Developer',
-    photo: '/docs/team1.png',
-  },
-  // 더 많은 팀원 추가...
-]
-```
-
-### YouTube 비디오 변경
-
-Concept Video 링크를 변경하려면 `src/pages/Home.tsx`에서:
-
-```typescript
-src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-```
-
-### Figma 프로토타입 링크 업데이트
-
-Hi-Fi 프로토타입 링크를 변경하려면 `src/pages/Home.tsx`에서:
-
-```typescript
-src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_URL"
-```
-
-### 로고 및 이미지 변경
-
-- **로고**: `public/docs/questrip_logo.png` 파일 교체
-- **메인 이미지**: `public/docs/enjoy.png` 파일 교체
-
 ## 🎯 기술 스택
 
 - **React 18** - UI 라이브러리
@@ -192,30 +98,11 @@ src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_URL"
   - 모바일 햄버거 메뉴
   - 그리드 시스템 (문서 4x2, 팀원 3-2 배치)
 
-## 🚀 배포
-
-### Vercel 배포 (추천)
-
-1. [Vercel](https://vercel.com)에 가입
-2. GitHub 저장소 연결
-3. 자동 배포 완료!
-
-### Netlify 배포
-
-1. [Netlify](https://netlify.com)에 가입
-2. GitHub 저장소 연결
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-
-## 📧 Contact
-
-- **Email**: youcandoit@ewha.ac.kr
-- **GitHub**: https://github.com/9rin/hci-website-project
 
 ## 📝 라이선스
 
-이 프로젝트는 이화여자대학교 HCI 수업의 일환으로 제작되었습니다.
+이 프로젝트는 이화여자대학교 Human Computer Interaction 수업의 일환으로 제작되었습니다.
 
 ---
 
-**Made with ❤️ by Questrip Team**
+**Made with ❤️ by HCI 8 Team**
