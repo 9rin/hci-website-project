@@ -316,51 +316,6 @@ const Home = () => {
               View and download project-related documents
             </p>
           </div>
-
-          {/* Document Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {documents.map((doc) => (
-              <div
-                key={doc.id}
-                className="group bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 border border-gray-200"
-              >
-                {/* Image Section */}
-                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
-                  <img
-                    src={doc.imageUrl}
-                    alt={doc.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-
-                {/* Content Section */}
-                <div className="p-5">
-                  {/* Title */}
-                  <h3 className="text-sm font-bold text-gray-900 mb-3 leading-snug min-h-[2.5rem]">
-                    {doc.title}
-                  </h3>
-
-                  {/* Meta Info */}
-                  <div className="flex items-center justify-between mb-3 text-xs text-gray-500">
-                    <span>{doc.pages} pages</span>
-                    <span>{doc.date}</span>
-                  </div>
-
-                  {/* Download Button */}
-                  <a
-                    href={doc.pdfUrl}
-                    download
-                    className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-colors text-sm"
-                  >
-                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    Download PDF
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
