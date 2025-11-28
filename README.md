@@ -2,6 +2,8 @@
 
 React + Tailwind CSS로 구축된 HCI 프로젝트 포트폴리오 웹사이트입니다.
 
+link: https://hci-website-project.vercel.app/
+
 ## 🚀 기능
 
 - **Hero Section**: 프로젝트 제목과 부제목이 포함된 메인 페이지
