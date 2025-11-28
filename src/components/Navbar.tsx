@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -16,12 +14,28 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "Documentation", path: "/documentation" },
-    { name: "Prototypes", path: "/prototypes" },
-    { name: "Videos", path: "/videos" },
-    { name: "Team", path: "/team" },
+    { name: "Home", path: "#home" },
+    { name: "Documentation", path: "#documentation" },
+    { name: "Prototypes", path: "#prototypes" },
+    { name: "Videos", path: "#videos" },
+    { name: "Team", path: "#team" },
   ];
+
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
+    e.preventDefault();
+    const element = document.querySelector(path);
+    if (element) {
+      const offset = 80; // navbar height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+    setOpen(false);
+  };
 
   return (
     <nav
@@ -30,36 +44,27 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-full flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-3 group">
+        <a href="#home" onClick={(e) => scrollToSection(e, "#home")} className="flex items-center space-x-3 group">
           <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
-            <span className="text-white font-bold text-lg">H</span>
+            <span className="text-white font-bold text-lg">Q</span>
           </div>
           <span className="text-xl font-bold tracking-wide text-gray-800 group-hover:text-gray-900 transition">
-            HCI Project
+            Questrip
           </span>
-        </Link>
+        </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          {navLinks.map((link) => {
-            const active = location.pathname === link.path;
-            return (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`relative text-sm font-medium transition-colors 
-                  ${active ? "text-gray-900" : "text-gray-500 hover:text-gray-800"}
-                `}
-              >
-                {link.name}
-
-                {/* Active underline */}
-                {active && (
-                  <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full"></span>
-                )}
-              </Link>
-            );
-          })}
+          {navLinks.map((link) => (
+            <a
+              key={link.path}
+              href={link.path}
+              onClick={(e) => scrollToSection(e, link.path)}
+              className="relative text-sm font-medium transition-colors text-gray-500 hover:text-gray-800"
+            >
+              {link.name}
+            </a>
+          ))}
         </div>
 
         {/* Mobile Menu Button */}
@@ -87,16 +92,14 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-white/95 backdrop-blur-xl shadow-lg py-4 px-6 space-y-3 animate-fadeIn">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.path}
-              to={link.path}
-              className={`block text-gray-700 text-base font-medium 
-                ${location.pathname === link.path ? "text-blue-600" : ""}
-              `}
-              onClick={() => setOpen(false)}
+              href={link.path}
+              onClick={(e) => scrollToSection(e, link.path)}
+              className="block text-gray-700 text-base font-medium hover:text-blue-600"
             >
               {link.name}
-            </Link>
+            </a>
           ))}
         </div>
       )}
