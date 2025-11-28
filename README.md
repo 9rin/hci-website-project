@@ -3,6 +3,8 @@
 React + Tailwind CSS로 구축된 HCI 프로젝트 포트폴리오 웹사이트입니다.  
 여행을 게임으로 만드는 **Questrip** 프로젝트의 모든 과정을 담은 원페이지 웹사이트입니다.
 
+**🌐 Live Demo**: https://hci-website-project.vercel.app/
+
 ## 🌟 프로젝트 소개
 
 Questrip은 여행자들이 여행지에서 미션을 수행하며 즐거운 경험을 만들어가는 게임형 여행 플랫폼입니다.  
