@@ -46,9 +46,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-full flex items-center justify-between">
         {/* Logo */}
         <a href="#home" onClick={(e) => scrollToSection(e, "#home")} className="flex items-center space-x-3 group">
-          <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
-            <span className="text-white font-bold text-lg">Q</span>
-          </div>
+          <img 
+            src="/questrip_logo.png" 
+            alt="Questrip Logo" 
+            className="h-10 w-auto object-contain"
+          />
           <span className="text-xl font-bold tracking-wide text-gray-800 group-hover:text-gray-900 transition">
             Questrip
           </span>
