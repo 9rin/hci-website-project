@@ -69,7 +69,7 @@ const Home = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Kyurin Kim',
+      name: 'Gyurin Kim',
       role: 'Project Manager & Website Developer',
       photo: '/docs/team1.png',
     },
@@ -87,7 +87,7 @@ const Home = () => {
     },
     {
       id: 4,
-      name: 'Yoonsu Woo',
+      name: 'Yunsoo Woo',
       role: 'Project Manager & Prototype Developer',
       photo: '/docs/team4.png',
     },
