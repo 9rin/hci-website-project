@@ -340,47 +340,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Mid-Fi Prototype */}
-          <div className="mb-10">
-            <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-              <div className="flex items-center mb-5">
-                <div className="text-3xl mr-3">📝</div>
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-1">
-                    Mid-Fidelity Prototype
-                  </h2>
-                  <p className="text-gray-600 text-sm">
-                    Mid-stage prototype featuring initial design concepts and user flows.
-                  </p>
-                </div>
-              </div>
-
-              <div className="aspect-video bg-gray-100 rounded-xl overflow-hidden mb-5">
-                <iframe
-                  style={{ border: 'none' }}
-                  width="100%"
-                  height="100%"
-                  src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_MIDFI_URL"
-                  allowFullScreen
-                  title="Mid-Fi Prototype"
-                ></iframe>
-              </div>
-
-              <a
-                href="https://www.figma.com/YOUR_MIDFI_LINK"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-2.5 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-700 transition-colors text-sm"
-              >
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                </svg>
-                Open in Figma
-              </a>
-            </div>
-          </div>
-
           {/* Hi-Fi Prototype */}
           <div>
             <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
@@ -481,13 +440,10 @@ const Home = () => {
 
               <div className="flex flex-wrap gap-2 mb-5">
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  ⏱️ 3:45
+                  ⏱️ 1:59
                 </span>
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  🎬 1080p HD
-                </span>
-                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  📅 2024.04.01
+                  📅 2025.10.17
                 </span>
               </div>
 
