@@ -2,7 +2,7 @@ const Home = () => {
   const documents = [
     {
       id: 1,
-      title: 'Needfinding',
+      title: 'Needfinding & Affinity diagram',
       pdfUrl: '/docs/Needfinding.pdf',
       diagramUrl: '/docs/Affinity diagram.png',
       imageUrl: '/docs/1.png',
@@ -11,7 +11,7 @@ const Home = () => {
     },
     {
       id: 2,
-      title: 'Point of View & Experience Prototypes',
+      title: 'POV & Experience Prototypes',
       pdfUrl: '/docs/Experience prototype.pdf',
       imageUrl: '/docs/2.png',
       pages: 23,
@@ -27,7 +27,7 @@ const Home = () => {
     },
     {
       id: 4,
-      title: 'Low-Fidelity Prototype & Test',
+      title: 'Low-fi prototype',
       pdfUrl: '/docs/Low-fi prototype.pdf',
       imageUrl: '/docs/4.png',
       pages: 27,
@@ -35,7 +35,7 @@ const Home = () => {
     },
     {
       id: 5,
-      title: 'Medium-fi Prototype',
+      title: 'Low-fi prototype with three tasks',
       pdfUrl: '/docs/Low-fi prototype with three tasks.pdf',
       imageUrl: '/docs/5.png',
       pages: 35,
@@ -51,9 +51,10 @@ const Home = () => {
     },
     {
       id: 7,
-      title: 'Hi-fidelity Prototype',
+      title: 'Hi-fi Prototype',
       videoUrl: '/docs/hifi-video.mp4',
       imageUrl: '/docs/7.png',
+      pages: 0,
       date: '2025.12.14',
       isVideo: true,
     },
@@ -289,7 +290,7 @@ const Home = () => {
                       <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
                       </svg>
-                      Download Diagram (PNG)
+                      Diagram (PNG)
                     </a>
                   )}
                 </div>
@@ -331,7 +332,7 @@ const Home = () => {
                     <a
                       href={doc.videoUrl}
                       download
-                      className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-colors text-sm"
+                      className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-gray-500 text-white rounded-full font-medium hover:bg-gray-600 transition-colors text-sm"
                     >
                       <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
