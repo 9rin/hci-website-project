@@ -456,13 +456,10 @@ const Home = () => {
 
               <div className="flex flex-wrap gap-2 mb-5">
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  ⏱️ 5:20
+                  ⏱️ 3:38
                 </span>
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  🎬 4K Ultra HD
-                </span>
-                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  📅 2024.05.15
+                  📅 2025.12.14
                 </span>
               </div>
 
@@ -470,7 +467,7 @@ const Home = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/YOUR_DEMO_VIDEO_ID"
+                  src="https://www.youtube.com/embed/R6SfjOIJCOs"
                   title="Hi-Fi Demo Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -478,47 +475,8 @@ const Home = () => {
                 ></iframe>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
-                <div className="flex items-start p-3 bg-gray-50 rounded-xl">
-                  <div className="flex-shrink-0 w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center mr-2.5 text-xs font-bold">
-                    1
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 text-sm">User Onboarding</div>
-                    <div className="text-xs text-gray-600">Intuitive first experience</div>
-                  </div>
-                </div>
-                <div className="flex items-start p-3 bg-gray-50 rounded-xl">
-                  <div className="flex-shrink-0 w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center mr-2.5 text-xs font-bold">
-                    2
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 text-sm">Core Features Demo</div>
-                    <div className="text-xs text-gray-600">Key functionality showcase</div>
-                  </div>
-                </div>
-                <div className="flex items-start p-3 bg-gray-50 rounded-xl">
-                  <div className="flex-shrink-0 w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center mr-2.5 text-xs font-bold">
-                    3
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 text-sm">Interactions</div>
-                    <div className="text-xs text-gray-600">User engagement flow</div>
-                  </div>
-                </div>
-                <div className="flex items-start p-3 bg-gray-50 rounded-xl">
-                  <div className="flex-shrink-0 w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center mr-2.5 text-xs font-bold">
-                    4
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 text-sm">Final Results</div>
-                    <div className="text-xs text-gray-600">Complete experience</div>
-                  </div>
-                </div>
-              </div>
-
               <a
-                href="/videos/hifi-demo.mp4"
+                href="/docs/hifi-video.mp4"
                 download
                 className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
               >
