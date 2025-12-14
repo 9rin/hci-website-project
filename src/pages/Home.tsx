@@ -338,8 +338,8 @@ const Home = () => {
 
                   {/* Meta Info */}
                   <div className="flex items-center justify-between mb-3 text-xs text-gray-500">
-                    <span>{doc.pages} pages</span>
-                    <span>{doc.date}</span>
+                    {!doc.isVideo && <span>{doc.pages} pages</span>}
+                    <span className={doc.isVideo ? 'ml-auto' : ''}>{doc.date}</span>
                   </div>
 
                   {/* Download Button */}
