@@ -395,35 +395,37 @@ const Home = () => {
                   <h2 className="text-2xl font-bold text-gray-900 mb-1">
                     High-Fidelity Prototype
                   </h2>
+                  <p className="text-gray-600 text-sm mb-2">
+                    High-quality prototype created with Visily, featuring finalized design and interactions.
+                  </p>
                   <p className="text-gray-600 text-sm">
-                    High-quality prototype with finalized design and interactions.
+                    Please proceed with the Hi-Fi prototype in the order shown in the demo video. At each step, follow the guide indicated by the purple box.
                   </p>
                 </div>
               </div>
 
-              <div className="aspect-video bg-gray-100 rounded-xl overflow-hidden mb-5">
-                <iframe
-                  style={{ border: 'none' }}
-                  width="100%"
-                  height="100%"
-                  src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_HIFI_URL"
-                  allowFullScreen
-                  title="Hi-Fi Prototype"
-                ></iframe>
+              <div className="flex justify-center mb-5">
+                <div className="w-full max-w-4xl bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-200">
+                  <img
+                    src="/docs/프로토타입이미지.png"
+                    alt="Hi-Fi Prototype Preview"
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
               </div>
 
-              <div className="flex flex-wrap gap-2.5">
+              <div className="flex justify-center">
                 <a
                   href="https://app.visily.ai/projects/8a5d5453-f08d-4c98-9d0d-2b3d1657e5d7/boards/2349993/presenter?flowId=37cf4d7e-bc27-479b-99c4-0d58abebb939"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-2.5 bg-green-600 text-white rounded-full font-medium hover:bg-green-700 transition-colors text-sm"
+                  className="inline-flex items-center px-8 py-3 bg-green-600 text-white rounded-full font-medium hover:bg-green-700 transition-colors text-base shadow-md hover:shadow-lg"
                 >
-                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                     <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                   </svg>
-                  Try Interactive Prototype
+                  Try Prototype
                 </a>
               </div>
             </div>
