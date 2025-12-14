@@ -21,7 +21,7 @@ const Home = () => {
       id: 3,
       title: 'Concept Video',
       pdfUrl: '/docs/Concept Video.pdf',
-      conceptVideoUrl: '/docs/concept video.mp4',
+      conceptVideoUrl: '/docs/Concept Video.mp4',
       imageUrl: '/docs/3.png',
       pages: 13,
       date: '2025.10.19',
@@ -482,18 +482,30 @@ const Home = () => {
                 ></iframe>
               </div>
 
-              <a
-                href="https://www.youtube.com/watch?v=XKxLAzYT9Rs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-2.5 bg-red-600 text-white rounded-full font-medium hover:bg-red-700 transition-colors text-sm"
-              >
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                </svg>
-                Watch on YouTube
-              </a>
+              <div className="flex flex-wrap gap-2.5">
+                <a
+                  href="/docs/Concept Video.mp4"
+                  download
+                  className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
+                  </svg>
+                  Download Video (MP4)
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=XKxLAzYT9Rs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-2.5 bg-red-600 text-white rounded-full font-medium hover:bg-red-700 transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                  Watch on YouTube
+                </a>
+              </div>
             </div>
           </div>
 
@@ -525,7 +537,7 @@ const Home = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/R6SfjOIJCOs"
+                  src="https://www.youtube.com/embed/rQjyhfQbLaM"
                   title="Hi-Fi Demo Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -533,16 +545,30 @@ const Home = () => {
                 ></iframe>
               </div>
 
-              <a
-                href="/docs/hifi-video.mp4"
-                download
-                className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
-              >
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
-                </svg>
-                Download Video (MP4)
-              </a>
+              <div className="flex flex-wrap gap-2.5">
+                <a
+                  href="/docs/hifi-video.mp4"
+                  download
+                  className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
+                  </svg>
+                  Download Video (MP4)
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=rQjyhfQbLaM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-2.5 bg-red-600 text-white rounded-full font-medium hover:bg-red-700 transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                  Watch on YouTube
+                </a>
+              </div>
             </div>
           </div>
         </div>
