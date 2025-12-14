@@ -382,7 +382,7 @@ const Home = () => {
               Prototypes
             </h1>
             <p className="text-lg text-gray-600">
-              Explore our Mid-Fi and Hi-Fi prototypes
+              Explore our Hi-Fi prototypes
             </p>
           </div>
 
