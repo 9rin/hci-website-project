@@ -21,6 +21,7 @@ const Home = () => {
       id: 3,
       title: 'Concept Video',
       pdfUrl: '/docs/Concept Video.pdf',
+      conceptVideoUrl: '/docs/concept video.mp4',
       imageUrl: '/docs/3.png',
       pages: 13,
       date: '2025.10.19',
@@ -293,6 +294,20 @@ const Home = () => {
                       Diagram (PNG)
                     </a>
                   )}
+                  
+                  {/* Concept Video Download Button (only for doc 3) */}
+                  {doc.conceptVideoUrl && (
+                    <a
+                      href={doc.conceptVideoUrl}
+                      download
+                      className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-red-600 text-white rounded-full font-medium hover:bg-red-700 transition-colors text-sm"
+                    >
+                      <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
+                      </svg>
+                      Video (MP4)
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
@@ -422,6 +437,18 @@ const Home = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
                   </svg>
                   Download ZIP
+                </a>
+                <a
+                  href="https://app.visily.ai/projects/8a5d5453-f08d-4c98-9d0d-2b3d1657e5d7/boards/2349993/presenter?flowId=37cf4d7e-bc27-479b-99c4-0d58abebb939"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-2.5 bg-green-600 text-white rounded-full font-medium hover:bg-green-700 transition-colors text-sm"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                  Try Interactive Prototype
                 </a>
                 <a
                   href="https://www.figma.com/YOUR_HIFI_LINK"
