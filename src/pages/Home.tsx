@@ -391,16 +391,30 @@ const Home = () => {
             <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
               <div className="flex items-center mb-5">
                 <div className="text-3xl mr-3">🎨</div>
-                <div>
+                <div className="flex-1">
                   <h2 className="text-2xl font-bold text-gray-900 mb-1">
                     High-Fidelity Prototype
                   </h2>
-                  <p className="text-gray-600 text-sm mb-2">
+                  <p className="text-gray-600 text-sm">
                     High-quality prototype created with Visily, featuring finalized design and interactions.
                   </p>
-                  <p className="text-gray-600 text-sm">
-                    Please proceed with the Hi-Fi prototype in the order shown in the demo video. At each step, follow the guide indicated by the purple box.
-                  </p>
+                </div>
+              </div>
+
+              {/* Important Notice */}
+              <div className="mb-5 bg-gradient-to-r from-purple-50 to-indigo-50 border-l-4 border-purple-500 rounded-lg p-4 shadow-sm">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <svg className="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm font-medium text-purple-900">
+                      📌 Please proceed with the Hi-Fi prototype in the order shown in the demo video. 
+                      <span className="block mt-1">At each step, follow the guide indicated by the <span className="font-bold text-purple-700">purple box</span>.</span>
+                    </p>
+                  </div>
                 </div>
               </div>
 
