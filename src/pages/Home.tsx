@@ -412,32 +412,7 @@ const Home = () => {
                 ></iframe>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-5">
-                <div className="p-3 bg-white rounded-xl border border-gray-200">
-                  <div className="font-bold text-gray-900 text-sm mb-1">✨ Interactive</div>
-                  <p className="text-xs text-gray-600">Full interaction implemented</p>
-                </div>
-                <div className="p-3 bg-white rounded-xl border border-gray-200">
-                  <div className="font-bold text-gray-900 text-sm mb-1">🎨 Polished</div>
-                  <p className="text-xs text-gray-600">Refined visual design</p>
-                </div>
-                <div className="p-3 bg-white rounded-xl border border-gray-200">
-                  <div className="font-bold text-gray-900 text-sm mb-1">📱 Responsive</div>
-                  <p className="text-xs text-gray-600">Responsive layout support</p>
-                </div>
-              </div>
-
               <div className="flex flex-wrap gap-2.5">
-                <a
-                  href="/prototypes/hifi-prototype.zip"
-                  download
-                  className="inline-flex items-center px-6 py-2.5 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors text-sm"
-                >
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
-                  </svg>
-                  Download ZIP
-                </a>
                 <a
                   href="https://app.visily.ai/projects/8a5d5453-f08d-4c98-9d0d-2b3d1657e5d7/boards/2349993/presenter?flowId=37cf4d7e-bc27-479b-99c4-0d58abebb939"
                   target="_blank"
@@ -449,18 +424,6 @@ const Home = () => {
                     <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                   </svg>
                   Try Interactive Prototype
-                </a>
-                <a
-                  href="https://www.figma.com/YOUR_HIFI_LINK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-2.5 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-700 transition-colors text-sm"
-                >
-                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                  </svg>
-                  Open in Figma
                 </a>
               </div>
             </div>
