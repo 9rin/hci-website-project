@@ -300,12 +300,12 @@ const Home = () => {
                     <a
                       href={doc.conceptVideoUrl}
                       download
-                      className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-red-600 text-white rounded-full font-medium hover:bg-red-700 transition-colors text-sm"
+                      className="inline-flex items-center justify-center w-full px-4 py-2.5 bg-gray-500 text-white rounded-full font-medium hover:bg-gray-600 transition-colors text-sm"
                     >
                       <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3" />
                       </svg>
-                      Video (MP4)
+                      Download Video (MP4)
                     </a>
                   )}
                 </div>
