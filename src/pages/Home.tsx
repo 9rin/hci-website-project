@@ -549,7 +549,7 @@ const Home = () => {
 
               <div className="flex flex-wrap gap-2 mb-5">
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
-                  ⏱️ 3:38
+                  ⏱️ 3:47
                 </span>
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-700">
                   📅 2025.12.14
